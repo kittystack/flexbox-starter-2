@@ -96,59 +96,77 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #F9F9F9;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  align-items: left;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: #1D2F6F;
   height: 80px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  display:flex;
+  justify-content: flex-start;
 }
-
+header h1{
+align-item:end;
+}
 main {
-  background-color: #ccc;
-  height: 250px;
+  
+  font-family: 'Handlee', cursive;
+  background: url(../img/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg) no-repeat center center fixed;
+  color:#AF3B6E;
+  height: 400px;
   width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+}
+span{
+font-family: 'Ms Madi', cursive;
+font-size:1.45em;
 }
 
 header,
 footer,
 main {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
-  justify-content:space-between;
+  
 }
-
+p{
+    text-justify: inter-word;
+    padding:50px;
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+}
 .flex-items {
+  width:30%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+  font-size: 1.5em;
+  background-color: #C299FF;
+  height: 300px;
+
   display: flex;
   justify-content: center;
   align-items: center;
